@@ -5,4 +5,5 @@ SELECT p.segment,
 FROM policies p
 LEFT JOIN claims c 
 ON p.policy_id = c.policy_id
-GROUP BY p.segment;
+GROUP BY p.segment
+Order By loss_ratio DESC;
