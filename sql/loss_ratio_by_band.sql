@@ -1,7 +1,7 @@
 SELECT 
 	   case
 	   	when premium >500 then 'HIGH'
-	   	when premium >= 300 then 'MIDIUM'
+	   	when premium >= 300 then 'MEDIUM'
 	   	else 'LOW'
 	   end as premium_band,	   
        SUM(c.claim_amount) AS total_claims,
