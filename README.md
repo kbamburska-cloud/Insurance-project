@@ -38,7 +38,7 @@ In a real company these would go to a pricing review.
 - Building a dashboard in Excel
 
 ## Dashboard
-![Dashboard](images/dashboard.png)
+![Dashboard](images/Dashboard.png)
 
 ## Files
 - `/sql` — SQL queries
