@@ -1,8 +1,11 @@
 # Insurance Portfolio Analysis
 
-I built this project to practise SQL and Excel using insurance data.
-I wanted to answer three real pricing questions:
-which segments are losing money, which premium bands are risky, and which individual policies are the biggest problem.
+This project analyses an insurance portfolio to identify unprofitable 
+segments, high-risk premium bands and problematic individual policies.
+
+Using SQL and Excel, I investigated three core pricing questions:
+which segments are losing money, which premium bands carry the highest 
+risk, and which individual policies should be flagged for review.
 
 ## What I looked at
 - Loss ratio by customer segment
@@ -44,3 +47,8 @@ In a real company these would go to a pricing review.
 - `/sql` — SQL queries
 - `/excel` — Excel dashboard with Pivot Tables
 - `/data` — CSV exports
+
+## Business Impact
+- Segment C is unprofitable (156% loss ratio) and requires pricing review
+- HIGH premium band shows the worst risk profile — claims exceed premium by 55%
+- 15 high-risk policies identified where claims exceed premium — recommended for repricing
